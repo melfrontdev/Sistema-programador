@@ -45,3 +45,28 @@ export const Visor = styled.div`
     font-size: 60px;
     overflow: hidden;
 `
+
+export const Buttons = styled.div`
+    margin-top: 15px;
+    width: 90%;
+    height: 434px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 7px;
+
+    .button {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Roboto';
+    background: #FFF;
+    margin: 8px;
+    color: black;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 5px 5px 5px 0px rgb(59, 58, 58); }
+
+`

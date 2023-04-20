@@ -58,6 +58,56 @@ export const Areabuttons = styled.div`
     height: 302px;
     top: 26px;
     position: relative;
+
+    .btn4 {
+        background-color: #e9b8b8 !important;
+    }
+
+    .btn5 {
+        background-color: #eeeec8 !important;
+    }
+
+    .btn6 {
+        background-color: #abdfab !important;
+    }
+
+    .btn1 {
+        background-color: red !important;
+    }
+
+    .btn2 {
+        background-color: yellow !important;
+    }
+
+    .btn3 {
+        background-color: green  !important;
+    }
+
+    .al {
+        background-color: grey !important;
+    }
+
+    .ac {
+        background-color: grey !important;
+    }
+
+    .e {
+        background-color: grey !important;
+        color: yellow;
+    }
+
+    .btnfim {
+        background-color: grey !important;
+    }
+
+    .btnx {
+        background-color: grey !important;
+        color: yellow;
+    }
+
+    .btnmf {
+        background-color: grey !important;
+    }
 `
 
 export const Buttons = styled.div`

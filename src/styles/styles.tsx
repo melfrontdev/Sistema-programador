@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    width: 450px;
-    height: 700px;
+    width: 369px;
+    height: 649px;
     display: flex;
+    margin: 20px auto;
     flex-direction: column;
     align-items: center;
     border: 10px solid rgb(8, 0, 0);
@@ -11,49 +12,61 @@ export const Container = styled.div`
     color: rgb(0, 0, 0);
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    justify-content: flex-start;
+    justify-content: center;
     background-color: rgb(90, 88, 88);
     box-shadow: 10px 10px 5px 0px rgba(163, 163, 163, 1);
-    margin: 50px auto;
-`;
 
-export const Areavisor = styled.div`
-    margin-top: 26px;
-    width: 90%;
-    height: 110px;
-    border: 5px solid rgb(255, 255, 255);
-    border-radius: 7px;
-
-    P {
-    position: absolute;
-    font-family: 'Roboto',sans-serif;
-    margin-top: -23;
-    margin-left: 21px;
-    font-size: 15px;
-    color: rgb(42,224,42) !important;
-}
+    h1 {
+        color: #fff;
+    }
 `
 
-export const Visor = styled.div`
-    margin: 19px auto 10px;
+/* visor e area visor */
+
+export const Areavisor = styled.div`
+    margin-top: 15px;
     width: 90%;
-    height: 67px;
+    height: 202px;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    position: relative;
+    top: -20px;
+
+    h4 {
+        position: relative;
+        left: 22px;
+        color: #569f56;
+    }
+`
+export const Visor = styled.div`
+    margin: 30px auto 10px;
+    width: 90%;
+    height: 50px;
     border-radius: 5px;
     align-items: center;
     background-color: antiquewhite;
-    font-family: 'DS-Digital', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 60px;
     overflow: hidden;
 `
+/* botao e area do botao */
+
+export const Areabuttons = styled.div`
+    border: 5px solid white;
+    border-radius: 5px;
+    width: 90%;
+    height: 302px;
+    top: 26px;
+    position: relative;
+`
 
 export const Buttons = styled.div`
-    margin-top: 15px;
-    width: 90%;
-    height: 434px;
-    border: 5px solid rgb(255, 255, 255);
-    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 12px;
+`;
 
-    .button {
+export const Button = styled.div`
     width: 60px;
     height: 60px;
     display: flex;
@@ -61,12 +74,15 @@ export const Buttons = styled.div`
     justify-content: center;
     font-size: 28px;
     font-weight: 600;
-    font-family: 'Roboto';
-    background: #FFF;
-    margin: 8px;
+    font-family: 'roboto';
+    background: #fff;
     color: black;
-    cursor: pointer;
     user-select: none;
-    box-shadow: 5px 5px 5px 0px rgb(59, 58, 58); }
+    gap: 50px;
+    cursor: pointer;
 
+    &:active{
+        position: relative;
+        top: 1px;
+    }
 `
